@@ -1,0 +1,83 @@
+
+body{
+    background-color: #1E1E1E;
+    font-family: sans-serif;
+}
+.mr-auto{
+    /* padding-left: 8%; */
+    margin-left: 30%;
+    margin-top: 5px;
+    font-size: 8px;
+    color: white;
+}
+#vap{
+    color: #F89E12;
+    margin-top: 16px;
+    margin-left: 50%;
+}
+#btn{
+    background-color: #F89E12;
+    border-radius: 10px;
+    height: 28px;
+    font-size: small;
+    color: black;
+
+}
+.filledArrow{
+    color:black;
+    font-size: small;
+    border-radius: 50%;
+    background-color: #F89E12;
+    border: 1px solid #F89E12;
+    padding: 2px;
+}
+.section{
+    height: 500%;
+    
+}
+.bground{
+    background-color: #1E1E1E;
+    height: 330px;
+    width: 25%;
+}
+
+#pp{
+    top:-20px;
+    left:-15px;
+}
+.centered {
+    color:white;
+    position: absolute;
+    /* top: 155; */
+    left:70%;
+    font-size: 16.19px;
+    transform: translate(-50%, -50%);
+}
+#icon{
+    color: #f89e12;
+    padding:4px ;
+    font-size: medium;
+}
+.Row {
+    display: table;
+    width: 55%; 
+    /* height: 55%; */
+    table-layout: fixed; 
+    border-spacing: 25px;
+}
+.Column {
+    display: table-cell;
+    column-gap: 40%;
+    padding-top: 11px;
+    /* padding: 5px; */
+    /* height: 65%; */
+    text-align: center;
+    border-radius: 35px;
+}
+.Row1 {
+    display: table;
+    width: 55%; 
+    /* height: 55%; */
+    table-layout: fixed; 
+}
+

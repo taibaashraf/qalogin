@@ -1,0 +1,139 @@
+.top-left {
+    position: absolute;
+    top: 18px;
+    left: 16%;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif
+  } 
+#btnlogout{
+    left: 78%;
+    padding: 2px;
+    width:65px;
+    font-size:14px;
+    top:22px;
+    border-radius: 15px;
+    color: black;
+    background-color: #F89E12;
+}
+.Row1 {
+    display: table;
+    width: 55%; 
+    /* height: 55%; */
+    table-layout: fixed; 
+}
+.Column {
+    display: table-cell;
+    column-gap: 40%;
+    padding-top: 11px;
+    /* padding: 5px; */
+    /* height: 65%; */
+    text-align: center;
+    border-radius: 35px;
+}
+.top-center {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 45px;
+    left: 36%;
+    font-size: 50.99px;
+    color: #feb33e;
+    font-family: sans-serif
+  }
+  #example {
+    position: absolute;
+    top: 15%;
+    left: 38%; 
+    padding: 5px;
+    background-color: white;
+    width: 24%;
+    height: 70%;
+ 
+ }
+ /* .container{
+    background-color: white;
+    position: absolute;
+} */
+section
+* {
+    box-sizing: border-box;
+  }
+  .vertical1 { 
+    border-left: 1px solid #feb33e; 
+    height: 70px; 
+    position:absolute; 
+    left: 87%; 
+    top:32%;
+  }   
+#aboutUs{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.vertical2 { 
+  border-left: 1px solid #feb33e; 
+  height: 70px; 
+  position:absolute; 
+  left: 53%; 
+} 
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 230px; 
+   
+}
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100px; 
+    
+  }
+
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: space-between;
+  }
+  h2{
+    color:white;
+  }
+  
+.column2 {
+  float: left;
+  width: 23.33%;
+  /* padding: -5px; */
+  margin-left: -15px;
+  margin-top: -100px; 
+  /* margin-right: -50px; */
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+ /*
+.csstransforms aside {
+  border-left: 34px solid #369;
+  padding-left: 10px;
+}
+.csstransforms aside h5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+} */

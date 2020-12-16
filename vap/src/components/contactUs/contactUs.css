@@ -1,0 +1,127 @@
+.top-left {
+    position: absolute;
+    top: 18px;
+    left: 16%;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif
+  } 
+  #btn{
+    background-color: #F89E12;
+    border-radius: 10px;
+    border: 1px solid #F89E12;
+    height: 20px;
+    font-size: 14px;
+    margin-left: 62%;
+    margin-top: 7px;
+    color:black;
+    font-family: bolder;
+}
+.Row {
+    display: table;
+    width: 55%; 
+    /* height: 55%; */
+    table-layout: fixed; 
+    border-spacing: 25px;
+}
+.top-center {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 8%;
+    text-align: center;
+    left: 38%;
+    font-family: sans-serif
+  }
+
+  h2{
+      letter-spacing: 3px;
+      font-size: 44px;
+      color: white;
+  }
+  .message{
+      color:white;
+      font-size: 14px;
+      font-weight: lighter;
+  }
+.Row1 {
+    display: table;
+    width: 55%; 
+    /* height: 55%; */
+    table-layout: fixed; 
+}
+.Column {
+    display: table-cell;
+    column-gap: 40%;
+    padding-top: 11px;
+    /* padding: 5px; */
+    /* height: 65%; */
+    text-align: center;
+    border-radius: 35px;
+}
+input:focus{
+  outline: none !important;
+  
+}
+label {
+  color:black;  
+  font-weight: lighter;
+  font-size: larger;
+}
+.vertical { 
+  border-left: 2px solid #feb33e; 
+  height: 95px; 
+  position:absolute; 
+  left: 2%; 
+  top:55%;
+}   
+#btnSubmit{
+  background-color: #F89E12;
+  color:black;
+  border:none;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  font-size: 14px;
+}
+.vertical1 { 
+  border-left: 2px solid #feb33e; 
+  height: 95px; 
+  position:absolute; 
+  left: 82%; 
+  top:5%;
+} 
+.iconss{
+  /* left:50px; */
+  margin-left: 20%;
+  margin:20%
+
+}
+.mail{
+ 
+}
+.call{
+  color: #F89E12;
+}
+.location{
+  color: #F89E12;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .columnC {
+    float: left;
+    /* width: 100%; */
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .rowC:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

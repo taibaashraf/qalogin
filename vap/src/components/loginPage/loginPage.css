@@ -1,0 +1,114 @@
+.top-left {
+    position: absolute;
+    top: 18px;
+    left: 16%;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif
+}
+#vapBg{
+    height: 656.5px;
+    width: 100%;
+}
+.container{
+    background-color: white;
+    position: absolute;
+}
+
+#closeIcon{
+    color:black;
+    font-size: x-large;
+    float: right;
+}
+
+#example {
+   position: absolute;
+   top: 15%;
+   left: 38%; 
+   padding: 5px;
+   background-color: white;
+   width: 24%;
+   height: 70%;
+
+}
+.top-center {
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    left: 28%;
+    font-size: 22px;
+    color:black;
+    font-family: sans-serif;
+    text-size-adjust: auto;
+}
+.wlcome{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20%;
+    font-size: medium;
+}
+.p1{
+    text-align: center;
+}
+.p2test{
+    text-align: left;
+    padding-left: 20px;
+}
+.p3{
+    text-align: center;
+}
+#div1{
+    border:1px solid #f89e12;
+    width: 90%;
+    margin-left: 5%;
+} 
+#div2{
+    width: 90%;
+    margin-left: 107px;
+}
+.p2test{
+    font-size: large;
+}
+#pwd{
+    border:1px solid #f89e12;
+    margin-left: -32%;
+}
+#eyePwd{
+    font-size: medium;
+    float: right;
+    margin-top: -28px;
+    margin-right: 45% !important;
+}
+.form-control{
+    padding: 6%;
+    
+} 
+.form-group{
+    margin-right: 50%;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 5;
+}
+.btn{
+    background-color: #ffb33a;
+    padding: 5px;
+    width: 60%;
+    border:1px solid #f89e12;
+    color:black;
+}
+#rightArrow{
+    margin-top:2px;
+}
+.frm2{
+    padding-left: 32%;
+    pointer-events: none;   
+}
+.vap{
+    color: white;
+    font-size: 16px;
+    margin-top:-70px;
+    text-align: center;
+    
+}
