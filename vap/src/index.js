@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import { BrowserRouter, Route,Link, NavLink, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 
 const App = () =>{
   return(
 
     <BrowserRouter>
+
        <Routes /> 
     
     </BrowserRouter>

@@ -1,60 +1,16 @@
-/* @media only screen and (max-width: 600px) {
-  .kch {
-    background-color: lightblue;
-    width:100%;
-
-  }
-  .symbols{
-    float: right;
-    padding-left:180%;
-}
-
-}  */
-
-/*// Small devices (landscape phones, 576px and up)*/
-/* @media (min-width: 576px) and (max-width: 767.99px) { */
-/* 
-    .gridi{
-          width: ;
-    }
-
-    .symbols{
-          float: right;
-          padding-left:180%;
-    }
-
-} */
-
-/* @media (max-width: 767px) {
- .gridi {
-      width: 100%;
-  }
-} */
-
-/* @media (min-width: 768px) and (max-width: 1024px) {
-  .gridi {
-      width: 50%;
-  }
-}
-@media (min-width: 1025px) {
-  .gridi {
-      width: 25%;
-  }
-} */
-
 body{
   background-color: #1e1e1e;
   margin: auto;
 }
-.bgImage{
+.bgImagecompiler{
     background-image: url("../Images/compiler.jpg");
 }
-#vap{
+#vapcompiler{
     color: #F89E12;
     margin-top: 16px;
     margin-left: 50%;
 }
-#vap1{
+#vap1compiler{
   color: #F89E12;
     margin-top: 16px;
     margin-left: 48%;
@@ -74,13 +30,13 @@ body{
     padding-left: 8%;
     margin-top: 5px;
 }
-#navHead{
+#navHeadcompiler{
   font-size:medium;
   color: white;
   font-weight: bold;
 
 }
-.column {
+.columncompiler {
     float: left;
     /* width: 30%; */
     /* padding-left: 10px; */
@@ -89,23 +45,23 @@ body{
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  .rowcompiler:after {
     content: "";
     display: table;
     clear: both;
    
   }
-  .section{
+  .sectioncompiler{
     background-color: #1e1e1e;
 }
-.Index{
+.Indexcompiler{
     text-decoration: none;
     color:white;
     pointer-events: none;
     float: left;
     padding-left: 6px;
 }
-#tabs{
+#tabscompiler{
     background-color:#3d3d3d ;
     height: 38px;
     /* align-items: right; */
@@ -122,19 +78,19 @@ body{
     margin-top: 15px;
 
   } */
-  .dDown{
+  .dDowncompiler{
     margin-top: 5px;
     margin-left: 60%;
 
   }
-  #dDmenu{
+  #dDmenucompiler{
     height: 64%;
   }
   select {
     background-color: #1e1e1e;
     color:white
   }
-  .port{
+  .portcompiler{
       color:white;
       
   }
@@ -143,7 +99,7 @@ body{
     padding: 2px;
     margin-top: 4px;
   }
-  .portA{
+  .portAcompiler{
       resize: none;
       color:white;
       height:20px;
@@ -153,12 +109,12 @@ body{
       background-color: #1e1e1e;
 
   }
-  .symbols{
+  .symbolscompiler{
     margin-top: 15px; 
     display: flex;
     margin-right: 515%;   
   }
-  #iconss{
+  #iconsscompiler{
     color: #f89e12;
     font-size: small;
     padding-bottom: 10%;
@@ -170,7 +126,7 @@ body{
   }
 
   
-  .Ulist{
+  .Ulistcompiler{
     font-size: 10px;
     color: #FFFFFF;
     list-style-type: none;  
@@ -179,27 +135,27 @@ body{
   /* .div3{
       border: 1px solid black;
   } */
-  .divAuto{
+  .divAutocompiler{
       border:1px solid black;
       height:6%
 }
-#autoScroll{
+#autoScrollcompiler{
   margin-top: -5px;
   font-size: 11px;
   color:white; 
 }
-  .options{
+  .optionscompiler{
     margin-top: -2px;
     margin-left: 2%;
     height:230%;
   }
-  .option1{
+  .option1compiler{
     margin-top: 5px;
     margin-left: 1%;
     height:230%;
    
   }
-  #btnClear{
+  #btnClearcompiler{
     background-color: #F89E12;
     border-radius: 10px;
     font-size: 8.4px;
@@ -213,35 +169,35 @@ body{
     height:20px;
     width:62px
   }
-  #liveView{
+  #liveViewcompiler{
     font-size: 12px;
   }
-  #Imagee{
+  #Imageecompiler{
       height: 150px;
       width: 100%;
       margin-top: -1.5%;
   }
-  .footerB{
+  .footerBcompiler{
     /* background-color: #1e1e1e; */
     padding: 5px;
     color:white;
   }
-  #outputt{
+  #outputtcompiler{
     color:'white';
     margin-left: -15px;
     margin-top: -4px;
   }
- .footer{
+ .footercompiler{
    width:100%;
    /* margin-top:5%; */
   background-color: #1e1e1e;
 
  }
- .footerA{
+ .footerAcompiler{
     border: 1px solid grey;
     color: white;
     padding: 6px;
  }
-.twoMains{
+.twoMainscompiler{
   background-color: #1e1e1e;
 }

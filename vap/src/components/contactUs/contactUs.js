@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Spacer from 'react-add-space';
-// import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
-
 
 import './contactUs.css';
-
+import './responsiveContact.css';
 
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Table } from 'react-bootstrap';
 import bgImage from '../Images/aboutUs.png';
@@ -15,21 +13,21 @@ class ContactUs extends Component {
         return (
             <div>
                 <div className="">
-                    <img className="img-responsive" src={bgImage} style={{ height: '585.5px', width: '100%' }} />
-                    <div className="top-left"><i className="fa fa-signal" style={{ color: '#F89E12' }} />
-                        <Spacer amount={1} />
-                    VAP IoT lab</div>
-                    <div className="top-left" style={{ left: '48%', fontFamily: "Myriad pro Semibold", fontSize: '14px', top: '27px' }}>Home</div>
-                    <div className="top-left" style={{ left: '54%', fontFamily: "Myriad pro Semibold", fontSize: '14px', top: '27px' }}>About</div>
-                    <div className="top-left" style={{ left: '60%', fontFamily: "Myriad pro Semibold", fontSize: '14px', top: '27px' }}>Forum</div>
-                    <div className="top-left" style={{ left: '66%', fontFamily: "Myriad pro Semibold", color: '#F89E12', fontSize: '14px', top: '27px' }}>Contact</div>
-                    <div className="top-left" style={{ left: '72%', fontFamily: "Myriad pro Semibold", fontSize: '14px', top: '27px' }}>FAQs</div>
-                    <button className="top-left" id="btn" style={{ fontFamily: "Myriad pro Semibold" }}>Logout</button>
+                    <img className="img-responsive" src={bgImage} id="bgImagecontact" style={{  }} />
+                    <div className="top-leftcontact"><i className="fa fa-signal" style={{ color: '#F89E12' }} />
+                        <Spacer amount={1} />  VAP IoT lab
+                    </div>
+                    <div className="top-left1contact" style={{ }}>Home</div>
+                    <div className="top-left2contact" style={{ }}>About</div>
+                    <div className="top-left3contact" style={{ }}>Forum</div>
+                    <div className="top-left4contact" style={{ }}>Contact</div>
+                    <div className="top-left5contact" style={{  }}>FAQs</div>
+                    <button className="top-left6contact" id="btncontact" style={{  }}>Logout</button>
 
 
                     <div className="section">
 
-                        <div className="top-center">
+                        <div className="top-centercontact">
                             <i><hr style={{
                                 backgroundColor: '#F89E12',
                                 height: '1.5px',
@@ -39,34 +37,34 @@ class ContactUs extends Component {
                             }} /></i>
 
                             <h2> contact us</h2>
-                            <p className="message">Drop us a message and we will get back to you</p>
+                            <p className="messagecontact" style={{backgroundColor:'transparent'}}>Drop us a message and we will get back to you</p>
                         </div>
 
 
-                        <div id="container" style={{ width: '80%', left: '18%', position: 'absolute', top: '27%' }}>
-                            <div className="rowC" >
-                                <div className="columnC" style={{ height: '360px', backgroundColor: 'white', width: '50%' }}>
+                        <div id="containercontact" style={{ }}>
+                            <div className="rowCcontact" >
+                                <div className="columnC1contact" style={{ backgroundColor: 'white' }}>
                                     {/* <!-- Material form register --> */}
                                     <div className="">
                                         {/* <!--Card content--> */}
                                         <div className="card-body px-lg-5 pt-0">
 
                                             {/* <!-- Form --> */}
-                                            <form className="" action="#!" style={{ paddingTop: '1%', paddingLeft: '3%' }}>
+                                            <form className="form1" action="#!" style={{ }}>
 
                                                 <div className="form-row">
                                                     <div className="col">
                                                         {/* <!-- First name --> */}
                                                         <div className="md-form">
-                                                            <label for="materialRegisterFormFirstName">First name</label>
-                                                            <input type="text" id="materialRegisterFormFirstName" className="form-control" placeholder="Ayesha" style={{ width: '90%' }} />
+                                                            <label for="materialRegisterFormFirstName" className="labelscontact">First name</label>
+                                                            <input type="text" id="input1contact" className="form-control" placeholder="Ayesha" style={{ }} />
                                                         </div>
                                                     </div>
                                                     <div className="col">
                                                         {/* <!-- Last name --> */}
                                                         <div className="md-form">
-                                                            <label for="materialRegisterFormLastName">Last name</label>
-                                                            <input type="email" id="materialRegisterFormLastName" className="form-control" placeholder="Naseer" style={{ width: '90%' }} />
+                                                            <label for="materialRegisterFormLastName" className="labelscontact">Last name</label>
+                                                            <input type="email" id="input2contact" className="form-control" placeholder="Naseer" style={{ }} />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -76,15 +74,15 @@ class ContactUs extends Component {
                                                     <div className="col">
                                                         {/* <!-- E-mail --> */}
                                                         <div className="md-form">
-                                                            <label for="materialRegisterFormFirstName">E-mail</label>
-                                                            <input type="text" id="materialRegisterFormEmail" className="form-control" placeholder="ayeshanaseer@gmail.com" style={{ width: '90%' }} />
+                                                            <label for="materialRegisterFormFirstName" className="labelscontact">E-mail</label>
+                                                            <input type="text" id="input3contact" className="form-control" placeholder="ayeshanaseer@gmail.com" style={{  }} />
                                                         </div>
                                                     </div>
                                                     <div className="col">
                                                         {/* <!-- Phone --> */}
                                                         <div className="md-form">
-                                                            <label for="materialRegisterFormFirstName">Phone</label>
-                                                            <input type="text" id="materialRegisterFormPhone" className="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock" placeholder="+92 - " style={{ width: '90%' }} />
+                                                            <label for="materialRegisterFormFirstName" className="labelscontact">Phone</label>
+                                                            <input type="text" id="input4contact"  className="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock" placeholder="+92 - " style={{ }} />
                                                         </div>
                                                     </div>
 
@@ -94,77 +92,56 @@ class ContactUs extends Component {
 
                                                 {/* <!-- Subject --> */}
                                                 <div className="md-form">
-                                                    <label for="materialRegisterFormSubject">Subject</label>
-                                                    <input type="tel" id="materialRegisterFormSubject" className="form-control" aria-describedby="materialRegisterFormSubjectHelpBlock" placeholder="Title of your query" style={{ width: '44%' }} />
+                                                    <label for="materialRegisterFormSubject" className="labelscontact">Subject</label>
+                                                    <input type="tel" id="input5contact" className="form-control" aria-describedby="materialRegisterFormSubjectHelpBlock" placeholder="Title of your query" style={{  }} />
                                                 </div>
 
                                                 <br />
-                                                <div className="vertical">Information</div>
+                                                <div className="verticalcontact">Information</div>
 
                                                 { /* Message */}
                                                 <div className="md-form">
-                                                    <label for="materialRegisterFormMessage">Message</label>
-                                                    <textarea id="materialRegisterFormMessage" className="form-control" aria-describedby="materialRegisterFormMessageHelpBlock" placeholder="Type your Query here" style={{ width: '95%', height: '80px', backgroundColor: '#efefef' }}></textarea>
+                                                    <label for="materialRegisterFormMessage" className="labelscontact">Message</label>
+                                                    <textarea id="areaTextcontact" className="form-control" aria-describedby="materialRegisterFormMessageHelpBlock" placeholder="Type your Query here" style={{ }}></textarea>
                                                 </div>
 
                                                 <br />
                                                 {/* <!-- Submit button --> */}
-                                                <button id="btnSubmit" className="" type="submit">Submit</button>
+                                                <button id="btnSubmitcontact" className="" type="submit">Submit</button>
 
                                             </form>
                                             {/* <!-- Form --> */}
-                                        </div>  
+                                        </div>
                                     </div>
                                     {/* <!-- Material form register --> */}
                                 </div>
-                                <div className="columnC" style={{ height: '360px', backgroundColor: '#1e1e1e', width: '35%', }}>
+                                <div className="columnC2contact" style={{  backgroundColor: '#1e1e1e' }}>
+                                    <div className="iconsscontact" style={{ color: 'white', fontWeight: 'lighter' }}>
 
-                                    {/* <div className="iconss" style={{color:'white', fontSize:'14px', fontWeight:'lighter'}}>
-                                        <ion-icon name="mail" className="mail" id="" style={{ padding:'2px',color: '#F89E12', fontSize:'20px', border:'1px solid grey', borderRadius:'5px' }}></ion-icon>
-                                       <Spacer amount={3} />VapIotlab@pk.com
-                                        <br />
-                                        <br />
-                                        <ion-icon name="call" className="call" id="" style={{ color: '#F89E12', fontSize:'20px',padding:'2px', border:'1px solid grey', borderRadius:'5px'}}></ion-icon>
-                                        <Spacer amount={3} />0337-7874554
-                                        <br />
-                                        <br />
-                                        <ion-icon name="location" className="location" id="" style={{ color: '#F89E12', fontSize:'20px',padding:'2px', border:'1px solid grey', borderRadius:'5px' }}></ion-icon>
-                                        <Spacer amount={3} />Silverback Pvt Ltd. Plot No. 27. 3rd Floor , Sarah Plaza, E-11/3, Islamabad
-                                    </div> */}
+                                        <div className="vertical1contact">Reach us</div>
 
-                                    <div className="iconss" style={{color:'white', fontSize:'14px', fontWeight:'lighter'}}>
-
-                                        <div className="vertical1">Reach us</div>
-
-                                        <div className="column">
-                                            <ion-icon name="mail" className="mail" id="" style={{ padding:'2px',color: '#F89E12', fontSize:'20px', border:'1px solid grey', borderRadius:'5px' }}></ion-icon>
+                                        <div className="columncontact">
+                                            <ion-icon name="mail" className="" id="mailBoxcontact" style={{  color: '#F89E12' }}></ion-icon>
                                             <Spacer amount={3} /> VapIotlab@pk.com
 
                                         </div>
-                                       
-                                        <br/>
-                                        <div className="column">
-                                            <ion-icon name="call" className="call" id="" style={{ color: '#F89E12', fontSize:'20px',padding:'2px', border:'1px solid grey', borderRadius:'5px'}}></ion-icon>
+
+                                        <br />
+                                        <div className="columncontact">
+                                            <ion-icon name="call" className="" id="phoneCallcontact" style={{ color: '#F89E12', }}></ion-icon>
                                             <Spacer amount={3} />  0337-7874554
                                         </div>
-                                       
-                                        <br/>
-                                        <div className="column" >
-                                            <ion-icon name="location" className="location" id="" style={{ color: '#F89E12', fontSize:'20px',padding:'2px', border:'1px solid grey', borderRadius:'5px' }}></ion-icon>
+
+                                        <br />
+                                        <div className="columncontact" >
+                                            <ion-icon name="location" className="" id="mapLocationcontact" style={{ }}></ion-icon>
                                             <Spacer amount={3} />   Silverback Pvt Ltd. Plot No. 27. 3rd Floor , Sarah Plaza, E-11/3, Islamabad
 
                                         </div>
 
-                                        
+
 
                                     </div>
-
-
-
-
-
-
-
 
                                 </div>
                             </div>
@@ -175,17 +152,17 @@ class ContactUs extends Component {
 
 
                     <div className="footer" style={{ backgroundColor: 'black', paddingTop: '4px' }}>
-                        <div className="Row1" style={{ paddingLeft: '30px', width: '90%' }}>
-                            <div className="Column" style={{ color: 'white', fontSize: '15px' }}>
-                                2019  VAP IoT Lab , All Rights  Reserved
-                        </div>
-                            <div className="Column" style={{ color: 'white', fontSize: '12px', paddingLeft: '15%' }}>
+                        <div className="Row1contact" style={{ paddingLeft: '30px', width: '90%' }}>
+                            <div className="Columncontact" id="startFooterpartcontact" style={{ }}>
+                                2020  VAP IoT Lab , All Rights  Reserved
+                            </div>
+                            <div className="Columncontact" id="middleFooterpartcontact" style={{ }}>
                                 Follow us on <br />
                                 <a href="#" style={{ color: 'white' }}> <i className="fa fa-facebook" style={{ color: '#f89e12', fontSize: 'large' }} />|</a>
                                 <a href="#" style={{ color: 'white' }}> <i className="fa fa-twitter" style={{ color: '#f89e12', fontSize: 'large' }} />|</a>
                                 <a href="#" style={{ color: 'white' }}> <i className="fa fa-linkedin" style={{ color: '#f89e12', fontSize: 'large' }} />  </a>
                             </div>
-                            <div className="Column">
+                            <div className="Columncontact">
                                 <a href="#" style={{ color: 'white', paddingLeft: '95%' }} >  <i className="fa fa-commenting-o" style={{ border: '8px solid orange', color: 'white', backgroundColor: '#f89e12', fontSize: '30px' }} />  </a>
                             </div>
                         </div>

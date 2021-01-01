@@ -1,132 +1,15 @@
- /*   */
- 
-/* 
- @media (max-width:574px){
-  body{
-    background-color: #1e1e1e;
-  }
-  #example {
-    position: absolute;
-    top: 10%;
-    left: 18%; 
-    padding: 5px;
-    background-color: white;  
-    width: 65%;
-    height: 55%;     
-} 
-#pwd{
-  border:1px solid #f89e12;
-  margin-left: -14%;
-  height: 97px;
-}
-.top-center {
-  position: absolute;
-  text-align: center;
-  top: 3%;
-  left: 26%;
-  font-size: 50px !important;
-  color:black;
-  font-family: sans-serif;
-  text-size-adjust: auto;
-  font-size: 450%;
-}  
-.wlcome{
-  font-weight: bold;
-  text-align: center;
-  padding-top: 15%;
-  font-size: 570%;
-}
-.p1{
-  text-align: center;
-  font-size: 250%;
-}
-.form1{
-  margin-top: 15%;
-}
-#email{
-  height: 115px;
-}
-
-}
-
-
-
-/* @media (max-width: 991px) and (min-width: 768px) */
-  /*   */
-    /* @media (min-width:576px ){
-        body{
-          background-color: #1e1e1e;
-         border: 1px solid red;
-        }
-        #vapBg{
-          height: 1200px !important; 
-          height: 1251px !important;
-        }
-        #example{           
-         position: absolute;
-         top: 15%;
-         left: 33%; 
-         padding: 5px;
-         background-color: white;
-         width: 100% !important;
-         height: 80px !important;     
-       }
-       .p1{
-         font-size: medium !important;
-       }
-       .p3{
-         text-align: center;
-         margin-top: -10%;
-       }
-             
-     .top-center {
-       position: absolute;
-       text-align: center;
-       top: 18px;
-       left: 28%;
-       font-size: 23px !important;
-       color:black;
-       font-family: sans-serif;
-       width: 38% !important;
-       text-size-adjust: auto;
-     } 
-     .wlcome{
-       font-weight: bold;
-       text-align: center;
-       padding-top: 18%;
-       font-size: xx-large;
-     } 
-     #email{
-      height: 0px ;
-     }
-    #pwd{
-      margin-left: -87px;
-    }
-    .p2test{
-       font-size: small;
-    }
-
+/* Small devices (landscape phones, 576px and up) */
+@media (max-device-width:36em){
     
-    
-    
-
-      }
-   */
-  
-  
-      /* @media (min-width:576px ) and (max-width:767px){ */
-      /* Small devices (landscape phones, 576px and up) */ 
-     @media screen and (max-width:567px){
 
         body{
-            background-color:orange;
-            border: 1px solid red !important;
+            /* background-color:orange;
+            border: 1px solid red !important; */
           }
-        #vapBg{
-         
+        #vapBglogin{  
            height: 1241px ;
          }
-         #example{           
+         #examplelogin{           
           position: absolute;
           top: 17%;
           left: 21%; 
@@ -135,15 +18,22 @@
           width: 60%;
           height: 780px !important;     
         }
-        .p1{
+        .p1login{
           font-size: 22px;
         }
-        .p3{
+        .p3login{
           text-align: center;
           margin-top: -10%;
         }
-              
-      .top-center {
+        .top-leftlogin {
+          position: absolute;
+          top: 18px;
+          left: 16%;
+          font-size: 32px;
+          color: white;
+          font-family: sans-serif
+      }   
+      .top-centerlogin {
         position: absolute;
         text-align: center;
         top: 18px;
@@ -154,7 +44,7 @@
         width: 38% !important;
         text-size-adjust: auto;
       } 
-      .wlcome{
+      .wlcomelogin{
         font-weight: bold;
         text-align: center;
         padding-top: 18%;
@@ -165,22 +55,35 @@
           font-size: 20px;
           line-height: 3;
       }
-
-        #email{
-          height: 0px ;
+      #emaillogin{
+        height: 0px;
+        /* height: 38px; */
+        margin-left:0;
+        width:100%;
+      }
+      #pwdlogin{
+        /* margin-left: -37%; */
+        width:100%;
+        height: 38px;
+        margin-left:-15%;
+      }
+        .p2testlogin{
+          padding-top: 20px;
+          font-size: 20px;
+          padding-left: 55px;
         }
-        #pwd{
-          margin-left: -78px;
-        }
-        .p2test{
-          font-size: x-large;
-        }
-        .vap{
+        .vaplogin{
           color: white;
-          font-size: 26px;
-          margin-top:-70px;
+          font-size: 30px;
+          margin-top:-90px;
           text-align: center;
           
+      }
+      .btnlogin{
+        margin-top: 12%;
+        margin-left:35% ;
+        width:28%;
+        font-size: x-large;
       }
       
     }
@@ -188,45 +91,47 @@
 
 
 
-      /* @media (min-width:768px) */
+  
 
     
-    @media (min-width: 768px) { 
+    /* Medium devices (tablets, 768px and up) */
+      @media (min-device-width: 48em) and (max-device-width:60em) { 
       body{
         background-color:pink;
       }
-      #pwd{
+      #pwdlogin{
         border:1px solid #f89e12;
         margin-left: -27.5%;
     }
-    #vapBg{
-      height:657px !important;
+    #vapBglogin{
+      height:727px !important;
       width: 100% !important;
 
     }
-    #eyePwd{
+    #eyePwdlogin{
       font-size: medium;
       float: right;
       margin-top: -28px;
       margin-right: 50% !important;
   }
-    #example {
+    #examplelogin {
       position: absolute; 
       top: 15%;
       left: 35%; 
       padding: 5px;
       background-color: white;
       width: 37%;
-      height: 435px !important;     
+      height: 475px !important;     
   }
-  .p1{
+  .p1login{
     font-size: small;
   }
-  .p3{
+  .p3login{
     text-align: center;
-    margin-top: -10%;
+    font-size: 15px;
+    margin-top: -15%;
   }
-  .top-center {
+  .top-centerlogin {
     position: absolute;
     text-align: center;
     top: 18px;
@@ -237,74 +142,87 @@
     width: 38% !important;
     text-size-adjust: auto;
   }   
-  .wlcome{
+  .wlcomelogin{
     font-weight: bold;
     text-align: center;
     padding-top: 18%;
-    font-size: x-large;
+    font-size: xx-large;
   }
-  #email{
+  #emaillogin{
     height: 0px;
+    /* height: 38px; */
+    margin-left:0;
+    width:100%;
   }
-  .p2test{
-    font-size: x-small;
+  #pwdlogin{
+    margin-left: -29%;
+    width:100%;
+    height: 38px;
+    /* margin-left:0; */
   }
-  .btn{
-    padding-top: -12px;
+  .p2testlogin{
+    font-size: small;
   }
-  .vap{
-    font-size:medium ;
-    left:-450px !important;
+  .btnlogin{
+    /* padding-top: -12px; */
+    margin-top: 10%;
+      margin-left:35% ;
+      width:28%;
+      font-size: large;
+  }
+  .vaplogin{
+    /* font-size:x-large ;
+    margin-left:450px !important;
+    color: white; */
+          font-size: 25px;
+          margin-top:-90px;
+          text-align: center;
+          margin-left:50px
   }
 
 
     }
 
-    /* Medium devices (tablets, 768px and up) */
    
   
     /*  Large devices (desktops, 992px and up) */
-    /* and (max-width: 1199px) */
-
-
-
-
-    @media  (min-width: 992px){
+    @media  (min-width: 62em){
       body{
         background-color:pink;
       }
-      #pwd{
+      #pwdlogin{
         border:1px solid #f89e12;
         margin-left: -27.5%;
     }
-    #vapBg{
-      height:657px !important;
+    #vapBglogin{
+      height:760px !important;
       width: 100% !important;
 
     }
-    #eyePwd{
+    #eyePwdlogin{
       font-size: medium;
       float: right;
       margin-top: -28px;
       margin-right: 50% !important;
   }
-    #example {
+    #examplelogin {
       position: absolute; 
       top: 15%;
       left: 35%; 
       padding: 5px;
       background-color: white;
       width: 37%;
-      height: 435px !important;     
+      height: 485px !important;     
   }
-  .p1{
-    font-size: small;
+  .p1login{
+    font-size: 15px;
   }
-  .p3{
+  .p3login{
     text-align: center;
-    margin-top: -10%;
+    margin-top: -17%;
+    font-size: medium;
   }
-  .top-center {
+  .top-centerlogin {
     position: absolute;
     text-align: center;
     top: 18px;
@@ -315,22 +233,36 @@
     width: 38% !important;
     text-size-adjust: auto;
   }   
-  .wlcome{
+  .wlcomelogin{
     font-weight: bold;
     text-align: center;
     padding-top: 18%;
-    font-size: x-large;
+    font-size: xx-large;
   }
-  #email{
+  #emaillogin{
     height: 0px;
+    /* height: 38px; */
+    margin-left:0;
+    width:100%;
   }
-  .p2test{
-    font-size: x-small;
+  #pwdlogin{
+    /* margin-left: -37%; */
+    width:100%;
+    height: 38px;
+    margin-left:-28%;
   }
-  .btn{
-    padding-top: -12px;
+  .p2testlogin{
+    font-size: 13px;
+    padding-left:25px ;
   }
-  .vap{
+  .btnlogin{
+    /* padding-top: -12px; */
+    margin-top: 10%;
+    margin-left:35% ;
+    width:35%;
+    font-size: large;
+  }
+  .vaplogin{
     font-size:medium ;
     left:-450px !important;
   }
@@ -344,19 +276,31 @@
   
     /* Extra large devices (large desktops, 1200px and up) */
   
-    @media (min-width: 1200px) { 
+    @media (min-width: 75em) { 
       body{
           background-color:purple;
      }
-      #vapBg{
+      #vapBglogin{
           height:657px !important;
           width: 100% !important;
       }
-      #pwd{
+      /* #pwdlogin{
         border:1px solid #f89e12;
         margin-left: -37%;
+      } */
+      #emaillogin{
+        height: 0px;
+        /* height: 38px; */
+        margin-left:0;
+        width:100%;
       }
-      #example {
+      #pwdlogin{
+        /* margin-left: -37%; */
+        width:100%;
+        height: 38px;
+        margin-left:-33%;
+      }
+      #examplelogin {
         position: absolute;
         top: 15%;
         left: 38%; 
@@ -365,7 +309,7 @@
         width: 24%;
         height: 435px;       
      }     
-      .top-center {
+      .top-centerlogin {
         position: absolute;
         text-align: center;
         top: 3%;
@@ -376,27 +320,28 @@
         text-size-adjust: auto;
         font-size: 200% !important;
       }  
-     
-     .wlcome{
-       font-size: x-large;
+    
+     .wlcomelogin{
+       font-size: x-large;           
 
      }
-     .p3{
+     .p3login{
       text-align: center;
       margin-top: -10%;
     }
   
-      #email{
+      #emaillogin{
         height: 15px !important;
       }
-      .p1{
+      .p1login{
         font-size: 10px;
       }
-      .p2test{
+      .p2testlogin{
         font-size: 10px !important;
       }
-      .vap{
+      .vaplogin{
         font-size:medium ;
+        padding-top: 15px;
       }
    
   
@@ -404,5 +349,5 @@
   
   
   
-  
+   
   
